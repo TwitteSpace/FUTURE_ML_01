@@ -10,26 +10,25 @@ Each task focuses on solving a real-world problem using data science, machine le
 
 ## 📁 Project Structure
 
-
+```text
 FUTURE_ML_01/
 │
 ├── data/
-│ ├── superstore.csv
-│ ├── customer_support_tickets.csv
-│ ├── Resume.csv
+│   ├── superstore.csv
+│   ├── customer_support_tickets.csv
+│   └── Resume.csv
 │
 ├── notebooks/
-│ ├── sales_forecasting.ipynb
-│ ├── ticket_classification.ipynb
-│ ├── resume_screening.ipynb
+│   ├── sales_forecasting.ipynb
+│   ├── ticket_classification.ipynb
+│   └── resume_screening.ipynb
 │
 ├── outputs/
 │
 ├── venv/
 │
-├── README.md
-└── .gitignore
-
+├── .gitignore
+└── README.md
 
 ---
 
