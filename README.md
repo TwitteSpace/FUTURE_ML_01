@@ -1,14 +1,14 @@
-
 # FUTURE_ML_01 — Machine Learning Projects (2026)
 
-This repository contains a complete set of **Machine Learning projects** developed as part of the **Future Interns Machine Learning Internship (2026)**.
+This repository contains a complete set of **Machine Learning projects** developed as part of the  
+**Future Interns Machine Learning Internship (2026)**.
 
 The goal of this repository is to demonstrate **practical, business-oriented ML systems**, not just model training.  
-Each task focuses on solving a real-world problem using data science, machine learning, and NLP techniques.
+Each task focuses on solving real-world problems using data science, machine learning, and NLP techniques.
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 ```text
 FUTURE_ML_01/
@@ -29,145 +29,200 @@ FUTURE_ML_01/
 │
 ├── .gitignore
 └── README.md
+📊 Task 1 — Sales Forecasting
+🎯 Objective
 
----
+Predict future sales using historical retail data to support:
 
-## 🔹 Task 1 — Sales Forecasting
+inventory planning
 
-### 📌 Objective
-Predict future sales using historical retail data in order to support:
-- inventory planning
-- demand forecasting
-- business decision-making
+demand forecasting
 
-### 🛠 Tools & Techniques
-- Python
-- Pandas, NumPy
-- Scikit-learn
-- Time-based feature engineering
-- Regression modeling
-- MAE & RMSE evaluation
+strategic business decision-making
 
-### ✅ Key Steps
-- Data cleaning and preprocessing
-- Monthly sales aggregation
-- Feature extraction (year, month)
-- Train-test split without shuffling (time-series aware)
-- Model evaluation and visualization
+🛠 Tools & Techniques
 
-### 💼 Business Value
-Sales forecasting helps organizations:
-- anticipate demand
-- manage cash flow
-- optimize inventory levels
+Python
 
----
+Pandas, NumPy
 
-## 🔹 Task 2 — Support Ticket Classification & Prioritization
+Scikit-learn
 
-### 📌 Objective
-Build an ML system that automatically:
-- classifies customer support tickets
-- assigns priority levels (High / Medium / Low)
+Time-based feature engineering
 
-### 🛠 Tools & Techniques
-- Python
-- NLP (text preprocessing)
-- TF-IDF Vectorization
-- Logistic Regression
-- Scikit-learn
+Regression modeling
 
-### ✅ Key Features
-- Text cleaning and normalization
-- Ticket subject + description combination
-- Automatic ticket categorization
-- Priority assignment logic
-- Model evaluation with accuracy & classification report
+MAE & RMSE evaluation
 
-### 💼 Business Value
+✅ Key Steps
+
+Data cleaning and preprocessing
+
+Monthly sales aggregation
+
+Feature extraction (year, month)
+
+Time-series aware train-test split
+
+Model evaluation and visualization
+
+💼 Business Value
+
+Sales forecasting enables organizations to:
+
+anticipate customer demand
+
+manage cash flow effectively
+
+optimize inventory levels
+
+🎧 Task 2 — Support Ticket Classification & Prioritization
+🎯 Objective
+
+Build a machine learning system that automatically:
+
+classifies customer support tickets
+
+assigns priority levels (High / Medium / Low)
+
+🛠 Tools & Techniques
+
+Python
+
+NLP text preprocessing
+
+TF-IDF vectorization
+
+Logistic Regression
+
+Scikit-learn
+
+✅ Key Features
+
+Text cleaning and normalization
+
+Ticket subject and description combination
+
+Automatic ticket categorization
+
+Rule-based priority assignment
+
+Model evaluation using accuracy and classification metrics
+
+💼 Business Value
+
 This system helps support teams:
-- reduce response time
-- handle urgent issues first
-- improve operational efficiency
 
-The focus is on **operational value**, not just accuracy.
+reduce response times
 
----
+handle urgent issues first
 
-## 🔹 Task 3 — Resume / Candidate Screening System
+improve overall operational efficiency
 
-### 📌 Objective
-Build a Machine Learning–based system to:
-- automatically screen resumes
-- compare them to a job description
-- rank candidates based on role fit
-- identify missing or required skills
+The focus is on operational impact, not just model accuracy.
 
-### 🛠 Tools & Techniques
-- Python
-- NLP (text preprocessing)
-- TF-IDF Vectorization
-- Cosine Similarity
-- Scikit-learn
+🧑‍💼 Task 3 — Resume / Candidate Screening System
+🎯 Objective
 
-### ✅ Key Features
-- Resume text cleaning and preprocessing
-- Job description parsing
-- Resume-to-role similarity scoring
-- Candidate ranking
-- Skill gap identification
+Build a machine learning system to:
 
-### 📊 Output
+automatically screen resumes
+
+compare them with a job description
+
+rank candidates based on role fit
+
+identify missing or required skills
+
+🛠 Tools & Techniques
+
+Python
+
+NLP preprocessing
+
+TF-IDF vectorization
+
+Cosine similarity
+
+Scikit-learn
+
+✅ Key Features
+
+Resume text cleaning and preprocessing
+
+Job description parsing
+
+Resume-to-role similarity scoring
+
+Candidate ranking
+
+Skill gap identification
+
+📈 Output
+
 The system produces:
-- ranked candidates
-- match scores
-- missing skill lists for each candidate
 
-### 💼 Business Value
-This mirrors real-world **HR-tech resume screening tools**, helping recruiters:
-- shortlist faster
-- make consistent decisions
-- reduce manual workload
+ranked candidates
 
----
+match scores
 
-## ⚠️ Limitations (All Tasks)
+missing skill lists for each candidate
 
-- Models rely on text quality and structure
-- Keyword-based skill extraction may miss contextual skills
-- No deep semantic understanding or experience weighting
+💼 Business Value
 
-These limitations reflect real challenges faced by production ML systems.
+This project mirrors real-world HR-tech resume screening systems, helping recruiters:
 
----
+shortlist candidates faster
 
-## 🚀 Future Improvements
+ensure consistent evaluations
 
-- Use spaCy NER for advanced skill extraction
-- Weight critical skills per job role
-- Add PDF resume parsing
-- Introduce learning-based ranking models
-- Build dashboards for recruiters and business users
+reduce manual workload
 
----
+⚠️ Limitations
 
-## 🏁 Final Notes
+Performance depends on text quality and structure
 
-This repository showcases **end-to-end applied machine learning**, including:
-- data preprocessing
-- feature engineering
-- modeling
-- evaluation
-- business interpretation
+Keyword-based skill extraction may miss contextual information
+
+No deep semantic or experience-level understanding
+
+These limitations reflect common challenges in production ML systems.
+
+🚀 Future Improvements
+
+Advanced skill extraction using spaCy NER
+
+Weighted skill importance per job role
+
+PDF resume parsing
+
+Learning-based ranking models
+
+Recruiter-facing dashboards
+
+🏁 Final Notes
+
+This repository showcases end-to-end applied machine learning, including:
+
+data preprocessing
+
+feature engineering
+
+modeling
+
+evaluation
+
+business interpretation
 
 The projects are designed to be:
-- explainable
-- practical
-- industry-relevant
 
----
+explainable
 
-## 👨‍💻 Internship Program
+practical
 
-**Future Interns — Machine Learning Internship (2026)**  
-https://www.linkedin.com/company/future-interns/
+industry-relevant
+
+🧑‍💻 Internship Program
+
+Future Interns — Machine Learning Internship (2026)
+🔗 https://www.linkedin.com/company/future-interns/
