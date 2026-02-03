@@ -14,14 +14,14 @@ Each task focuses on solving real-world problems using data science, machine lea
 FUTURE_ML_01/
 │
 ├── data/
-│   ├── superstore.csv
 │   ├── customer_support_tickets.csv
-│   └── Resume.csv
+│   ├── Resume.csv
+│   └── superstore.csv
 │
 ├── notebooks/
-│   ├── sales_forecasting.ipynb
-│   ├── ticket_classification.ipynb
-│   └── resume_screening.ipynb
+│   ├── task1_sales_forecasting.ipynb
+│   ├── task2_ticket_classification.ipynb
+│   └── task3_resume_screening.ipynb
 │
 ├── outputs/
 │
