@@ -24,7 +24,7 @@ FUTURE_ML_01/
 │   └── task3_resume_screening.ipynb
 │
 ├── outputs/
-│
+│   ├── .gitkeep
 ├── venv/
 │
 ├── .gitignore
