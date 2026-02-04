@@ -167,8 +167,8 @@ The projects are designed to be:
 - industry-relevant
 
 ---
-
+## Author: TwitteSpace  
 ## 🧑‍💻 Internship Program
-
-**Future Interns — Machine Learning Internship (2026)**  
+**Future Interns — Machine Learning Internship (2026)** 
+Internship Track: Machine Learning 
 https://www.linkedin.com/company/future-interns/
